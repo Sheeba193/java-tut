@@ -38,7 +38,7 @@ public class Mathproblems {
 
         c = Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
 
-        System.out.print("the hypotenuse length is: %.2fsqr units ", c );
+        System.out.printf("the hypotenuse length is: %.2fsqr units ", c );
         scanner.close();
     }
 }
